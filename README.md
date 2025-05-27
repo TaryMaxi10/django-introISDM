@@ -29,6 +29,15 @@ Vamos a utilizar la versión 3.2.2 de django.
 
 **$** `pip install Django==3.2.2` 
 
+# 1. Crear un entorno virtual
+python -m venv venv
+
+# 2. Activarlo
+source venv/bin/activate
+
+# 3. Ahora ya podés instalar paquetes sin ser root
+pip install Django==3.2.2
+
 ### 4. Crear un proyecto de Django
 Para ello tenemos que estar dentro del contenedor de software (comando N°2)
 Y luego nos dirigimos a la carpeta raíz de nuestro proyecto:
